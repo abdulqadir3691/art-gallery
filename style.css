@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 auto;
+}
+h1 {
+  display: inline-block;
+  background: linear-gradient(to right, #ffffff 64%, #151515 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 16.5%;
+  transform: translate(-50%, -50%);
+  font-feature-settings: "clig" off, "liga" off;
+  text-align: start;
+  margin-left: 170px;
+
+  font-family: Big Shoulders Display;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  text-transform: uppercase;
+}
+.text-family {
+  font-family: Outfit;
+}
+.centered1 {
+  color: var(--Dark-Grey, #444);
+  font-feature-settings: "clig" off, "liga" off;
+  position: absolute;
+  top: 25%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.image1 {
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: auto;
+  flex-shrink: 0;
+  background: var(--Almost-Black, #151515);
+}
+
+.image2 img {
+  width: 540px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.btn {
+  border: none;
+  background: var(--Almost-Black, #151515);
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 73.8%;
+  transform: translate(-50%, -50%);
+}
+.btn-text {
+  color: var(--White, #fff);
+  font-family: Big Shoulders Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3.636px;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+}
+
+/* grid 1 section */
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  padding: 30px;
+}
+
+.text p {
+  margin: 0;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.heading-sec-sec {
+  color: var(--Almost-Black, #151515);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.para-sec-two {
+  color: var(--Dark-Grey, #444);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+/* grid-2 */
+.container1 {
+  display: flex;
+  grid-gap: 210px;
+  grid-template-columns: 70% 30%;
+  flex-direction: row;
+  padding: 20px 30px 80px 30px;
+}
+
+.left-image {
+  flex: 1;
+  width: 7git init0%;
+}
+
+.left-image img {
+  width: 635px;
+  height: 720px;
+}
+
+.right-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.image-column {
+  flex: 1;
+}
+.image-column2 {
+  flex: 1;
+  background: var(--Almost-Black, #151515);
+}
+
+.image-column img {
+  width: 445px;
+  height: 313px;
+}
+.grid3-h1 {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
+.grid3-para {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  padding: 0px 30px;
+}
+
+/* footer section */
+
+.footer {
+  padding: 0px 30px;
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text img {
+  max-width: 50px;
+}
+
+.center-text {
+  color: var(--White, #fff);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
